@@ -8,42 +8,42 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const blogPosts = [
   {
-    title: "21 Essential Gifts for the Gardening Lover",
+    title: "",
     image: "balcony.png",
     link: "#",
   },
   {
-    title: "41 Plants Perfect for a Dramatic Goth Garden",
+    title: "",
     image: "shelf.png",
     link: "#",
   },
   {
-    title: "25 Stunning Lawn Plants You Need",
+    title: "",
     image: "terrace.png",
     link: "#",
   },
   {
-    title: "10 Easy Herbs to Grow Indoors",
+    title: "",
     image: "room.png",
     link: "#",
   },
   {
-    title: "The Best Flowers for Your Balcony Garden",
+    title: "",
     image: "cute.png",
     link: "#",
   },
   {
-    title: "21 Essential Gifts for the Gardening Lover",
+    title: "",
     image: "hanging.png",
     link: "#",
   },
   {
-    title: "41 Plants Perfect for a Dramatic Goth Garden",
+    title: "",
     image: "rack.png",
     link: "#",
   },
   {
-    title: "25 Stunning Lawn Plants You Need",
+    title: "",
     image: "decoration.png",
     link: "#",
   },

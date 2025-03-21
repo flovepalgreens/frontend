@@ -88,35 +88,37 @@ export default function About() {
           </ul>
 
           {/* Meet the Team */}
-          <h2 className="text-3xl md:text-4xl font-extrabold font-serif leading-tight mt-10 text-green-700">
+          <h2 className="text-3xl md:text-4xl font-extrabold font-serif leading-tight mt-10 text-green-700 text-center">
             Meet the Team
           </h2>
-          <ul className="mt-4 space-y-3">
-            {[
-              { role: "Chief Executive Officer", name: "John Paul" },
-              { role: "Chief Operating Officer", name: "Ramu" },
-              { role: "Chief Technology Officer", name: "Nithin Selva" },
-              { role: "Chief Marketing Officer", name: "Niranjan" },
-              { role: "Chief Financial Officer", name: "Athul" },
-              { role: "Chief Sales Officer", name: "Gowtham" },
-              { role: "Chief Product Officer", name: "Sai Venkat" },
-            ].map((member, index) => (
-              <li key={index} className="flex items-center space-x-3">
-                <TreePine className="w-5 h-5 text-green-800" />
-                <span className="text-lg font-semibold">
-                  {member.name} - {member.role}
-                </span>
-              </li>
-            ))}
-          </ul>
 
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center">
+            {[
+              { name: "John Paul", role: "Chief Executive Officer", img: "/john.png" },
+              { name: "Nithin Selva", role: "Chief Technology Officer", img: "/nithin.png" },
+              { name: "Niranjan", role: "Chief Marketing Officer", img: "/niranjan.png" },
+              { name: "Athul", role: "Chief Financial Officer", img: "/athul.png" },
+              { name: "Gowtham", role: "Chief Sales Officer", img: "/gowtham.png" },
+              { name: "Sai Venkat", role: "Chief Product Officer", img: "/sai.png" },
+            ].map((member, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-md p-4 w-full max-w-xs text-center transform transition duration-300 hover:scale-105">
+                <img 
+                  src={member.img} 
+                  alt={member.name} 
+                  className="w-32 h-32 object-cover rounded-full mx-auto shadow-md border-4 border-green-500"
+                />
+                <h3 className="mt-4 text-xl font-semibold text-green-800">{member.name}</h3>
+                <p className="text-md text-gray-600">{member.role}</p>
+              </div>
+            ))}
+          </div>
           {/* Call to Action */}
           <motion.button
             className="mt-6 px-6 py-2 bg-green-500 mb-15 text-white rounded-lg font-semibold shadow-md transition-all duration-300 hover:bg-green-700"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Link href="/business">Discover Our Solutions</Link>
+            <Link className="align-text-center justify-items-center align-center" href="/business">Discover Our Solutions</Link>
           </motion.button>
         </div>
       </motion.div>
