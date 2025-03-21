@@ -76,9 +76,9 @@ export default function About() {
           </h2>
           <ul className="mt-4 space-y-3">
             {[ 
-              { name: "Emily R.", feedback: "Flovepal transformed my small balcony into a thriving green paradise!" },
-              { name: "Michael D.", feedback: "The eco-friendly tools make gardening easy and rewarding." },
-              { name: "Samantha P.", feedback: "Love their sustainability mission—truly inspiring!" },
+              { name: "Thirukumaran R.", feedback: "Flovepal transformed my small balcony into a sustainable garden!" },
+              { name: "Joseph Rezinold", feedback: "The eco-friendly Products make gardening easy and rewarding." },
+              { name: "Tushar Rajesh Pillai", feedback: "Love their sustainability mission—truly inspiring!" },
             ].map((testimonial, index) => (
               <li key={index} className="p-4 bg-gray-100 rounded-md shadow-sm">
                 <p className="font-semibold">{testimonial.name}</p>

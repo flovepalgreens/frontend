@@ -156,10 +156,10 @@ export default function Home() {
     {/* First Testimonial - Left aligned */}
     <div className="flex justify-start ml-70 w-full">
       <div className="bg-white p-6 rounded-lg shadow-md relative w-full md:w-2/3 lg:w-1/2">
-        <h3 className="font-semibold text-xl text-gray-800 mb-2">Hannah</h3>
+        <h3 className="font-semibold text-xl text-gray-800 mb-2">Rohith</h3>
         <hr className="border-gray-300 w-full mb-4" />
         <p className="text-gray-700">
-          "The AI-powered plant care system detected my fern was getting too much direct sunlight before I noticed any signs. It suggested a location change and now it's thriving again!"
+          "The AI-powered plant care system detected my Areca Palm was getting too much direct sunlight before I noticed any signs. It suggested a location change and now it's thriving again!"
         </p>
       </div>
     </div>
@@ -167,7 +167,7 @@ export default function Home() {
     {/* Second Testimonial - Right aligned */}
     <div className="flex w-full ml-120">
       <div className="bg-white p-6 rounded-lg shadow-md relative w-full md:w-2/3 lg:w-1/2">
-        <h3 className="font-semibold text-xl text-gray-800 mb-2">Graham</h3>
+        <h3 className="font-semibold text-xl text-gray-800 mb-2">Arun Sidharth</h3>
         <hr className="border-gray-300 w-full mb-4" />
         <p className="text-gray-700">
           "Flovepal's automated watering system has been a game changer. My plants are healthier than ever, and I love getting notifications about their growth progress. Highly recommend."
@@ -178,10 +178,10 @@ export default function Home() {
     {/* Third Testimonial - Left aligned */}
     <div className="flex justify-start ml-70 w-full ml-20">
       <div className="bg-white p-6 rounded-lg shadow-md relative w-full md:w-2/3 lg:w-1/2">
-        <h3 className="font-semibold text-xl text-gray-800 mb-2">Jenny</h3>
+        <h3 className="font-semibold text-xl text-gray-800 mb-2">Nikhil</h3>
         <hr className="border-gray-300 w-full mb-4" />
         <p className="text-gray-700">
-          "As a repeat customer, I'm amazed by how the smart monitoring adapts to each plant's needs. My indoor garden is flourishing with minimal effort on my part. I can definitely recommend!"
+          "As a continuous customer, I'm amazed by how the smart monitoring adapts to each plant's needs. My indoor garden is flourishing with minimal effort on my part. I can definitely recommend!"
         </p>
       </div>
     </div>
