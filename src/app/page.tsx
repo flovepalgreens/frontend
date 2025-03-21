@@ -45,7 +45,7 @@ export default function Home() {
         {/* Left Side Image and Content */}
         <div className="w-full md:w-1/2 flex flex-col justify-center items-center">
           <Image
-            src="/logo.png"
+            src="/actual.png"
             alt="Plant Care"
             width={500}
             height={500}

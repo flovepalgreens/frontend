@@ -26,7 +26,7 @@ export default function Navbar() {
     >
       {/* Brand Logo and Name */}
       <div className="flex items-center space-x-3">
-            <Image src="/logo.png" alt="Flovepal Logo" width={50} height={50} className="mb-2" />
+            <Image src="/actual.png" alt="Flovepal Logo" width={50} height={50} className="mb-2" />
             <div className="flex flex-col text-left">
               <span className="text-2xl font-bold text-black font-serif">Flovepal</span>
               <span className="text-xl font-bold text-green-700 font-serif">Greenspace</span>
